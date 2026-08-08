@@ -8,7 +8,11 @@ age = int(input("Enter age: "))
 # 60+: Senior
 
 # Your code here:
+<<<<<<< HEAD
+if age <= 12:
+=======
 if age >= 0 and age <= 12:
+>>>>>>> 26159bec23e81e60042186164d6d14b3f24348b7
     print("Child")
 elif age <= 19:
     print("Teenager")
@@ -35,6 +39,18 @@ if entered_pin == pin:
         
         # Complete the menu logic here
         # Your code here:
+<<<<<<< HEAD
+        if choice == "4":
+            break
+        elif choice == "1":
+            print("Balance:", balance, "บาท")
+        elif choice == "2":
+            amount = float(input("ถอนเท่าไหร่???"))
+            balance = balance - amount
+        elif choice == "3":
+            amount = float(input("ฝากเท่าไหร่???"))
+            balance = balance + amount
+=======
         if choice == "1":
             print("Balance:", balance)
 
@@ -60,5 +76,6 @@ if entered_pin == pin:
         else:
             print("Invalid option")
 
+>>>>>>> 26159bec23e81e60042186164d6d14b3f24348b7
 else:
     print("Invalid PIN")
