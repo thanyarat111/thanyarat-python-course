@@ -71,8 +71,8 @@ print("Formatted Information:")
 print(f"Name: {name.upper()}")
 if 18 <= age <= 30:
     print("Age Group: Young Adult (18-30)")
-elif: 31 <= age <= 60:
+ elif: 31 <= age <= 60:
     print("Age Group: Aduit (31-60)")
-else:
+ else:
     print("Age Group: Senior")
 print(f"Phone: +91-{phone}")
