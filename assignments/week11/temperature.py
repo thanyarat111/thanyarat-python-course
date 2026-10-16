@@ -42,5 +42,5 @@ def display_analysis(avg, high, low):
 input = get_temperatures()
 result = analyze_temps(input)
 display_anlysis(result[0], result[1], result[2])
-    
+
    
